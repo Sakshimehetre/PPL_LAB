@@ -1,0 +1,26 @@
+1]LISP programme for finding the nth element from list of 'm' elements
+
+
+[1]> (defun n(n li)
+      (if (zerop n)
+         (first li)
+         (n (- n 1)(rest li))))
+N
+[2]> (n 1'(1 4 5 6))
+4
+[3]> (n 3'(1 4 5 6))
+6
+[4]>
+
+1]LISP programme for finding the factorial of a number 
+
+[1]> (defun factorial (n)
+       (cond
+         ((= n 1) 1)
+         (t (* n (factorial (- n 1))))))
+FACTORIAL
+[2]> (factorial 3)
+6
+[3]>
+
+
