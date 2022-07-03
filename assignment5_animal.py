@@ -1,3 +1,4 @@
+#for CI
 class Animals:
     def __init__(self, legs=4, eyes=2):
         self.legs = legs
